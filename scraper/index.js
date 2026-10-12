@@ -266,101 +266,67 @@ function locationFromTitle(title) {
   return hit ? [hit] : scraperConfig.defaultLocation;
 }
 
+const GREENHOUSE_BOARD = "scbitdefendersrl";
+const RO_CITY_RE = /^(cluj(-napoca)?|ia[sș]i|timi[sș]oara|bra[sș]ov|sibiu|oradea|constan[tț]a|craiova|pite[sș]ti|rom[aâ]nia)$/i;
+
+/**
+ * Normalise a Greenhouse location string ("Bucharest, RO", "Bucharest, Romania",
+ * "Paris", "Jakarta, Indonesia") to a Romanian city name, or null when the
+ * posting is not in Romania.
+ * @param {string} name
+ * @returns {string|null}
+ */
+function greenhouseCity(name) {
+  const raw = String(name || "").trim();
+  if (!raw) return null;
+  const parts = raw.split(",").map((p) => p.trim()).filter(Boolean);
+  const tail = (parts[1] || "").toLowerCase();
+  if (parts.length > 1 && tail !== "ro" && tail !== "romania") return null;
+  const city = parts[0].replace(/^remote\s*-?\s*/i, "").trim();
+  if (/^bucharest$/i.test(city)) return "Bucuresti";
+  // A bare name ("Paris", "Berlin", "Malaysia") carries no country, so only accept the
+  // Romanian cities Bitdefender hires in; anything else would fall through to the
+  // generic "Romania" location downstream.
+  if (parts.length === 1 && !RO_CITY_RE.test(city)) return null;
+  return city || null;
+}
+
+/**
+ * Parse the Greenhouse boards API payload into scraper jobs, keeping only
+ * Romanian locations.
+ * @param {{jobs: Array}} payload
+ */
+function parseGreenhouseJobs(payload) {
+  const out = [];
+  for (const j of (payload && payload.jobs) || []) {
+    const city = greenhouseCity(j.location && j.location.name);
+    if (!city || !j.title || !j.absolute_url) continue;
+    out.push({
+      url: j.absolute_url,
+      title: String(j.title).replace(/\s+/g, " ").trim(),
+      location: [city],
+      workmode: scraperConfig.defaultWorkmode,
+      source: CAREERS_SOURCE
+    });
+  }
+  return out;
+}
+
+async function fetchGreenhouseJobs() {
+  const url = `https://boards-api.greenhouse.io/v1/boards/${GREENHOUSE_BOARD}/jobs`;
+  const res = await fetch(url, { timeout: TIMEOUT, headers: { "User-Agent": userAgent } });
+  if (!res.ok) throw new Error(`Greenhouse API ${res.status}`);
+  return parseGreenhouseJobs(await res.json());
+}
+
 async function scrapeCareers() {
-  console.log(`Scraping ${scraperConfig.sources.listing} ...`);
+  console.log(`Scraping Greenhouse board ${GREENHOUSE_BOARD} (careers page is client-rendered) ...`);
   const jobs = [];
-
-  const sitemapEntries = await fetchSitemapJobUrls();
-  await sleep(PAGE_DELAY);
-
-  let listingItems = [];
   try {
-    listingItems = parseListing(await fetchListing());
-    console.log(`  Listing: ${listingItems.length} open positions`);
+    jobs.push(...(await fetchGreenhouseJobs()));
   } catch (err) {
-    console.log(`  Listing error: ${err.message}`);
+    console.log(`  Greenhouse error: ${err.message}`);
   }
-
-  if (listingItems.length > 0) {
-    // Resolve every item's URL in two passes so an exact sitemap match
-    // always wins a shared slug over a fuzzy one, regardless of which title
-    // the listing happens to put first:
-    //   pass 1 -- the scraped <a href> (ground truth) or an EXACT sitemap
-    //             slug match; these are trustworthy, so claim their URLs
-    //             immediately.
-    //   pass 2 -- only the items pass 1 couldn't resolve try
-    //             matchSitemapUrl's fuzzy fallback (bounded prefix, then
-    //             small edit distance), and only win an unclaimed URL.
-    // Without this ordering, a longer, unrelated title that fuzzy-matches an
-    // earlier position in sitemapEntries could claim a sitemap URL before
-    // the job that's an exact match for it even gets a turn -- e.g.
-    // "Reprezentant Medical si Vanzari - Veterinare" (no sitemap entry of
-    // its own, no anchor in the listing) grabbing "reprezentant-medical"
-    // ahead of the real "Reprezentant Medical" posting. Two jobs sharing one
-    // URL means one silently overwrites the other in SOLR.
-    const resolvedUrls = new Array(listingItems.length);
-    const claimedSitemapUrls = new Set();
-    const unresolved = [];
-    listingItems.forEach((item, i) => {
-      // The real <a href> scraped from the page is ground truth -- prefer it
-      // over guessing. Sites whose permalink needs an ID the title can't
-      // reproduce (e.g. "/jobs/jr133930/software-architect/") silently 404
-      // under the guess, which nothing else catches until the live
-      // validation just before upload.
-      if (item.url) {
-        resolvedUrls[i] = new URL(item.url, scraperConfig.sources.listing).toString();
-        return;
-      }
-      const exact = matchSitemapUrlExact(item.title, sitemapEntries);
-      if (exact) {
-        resolvedUrls[i] = exact;
-        claimedSitemapUrls.add(exact);
-      } else {
-        unresolved.push(i);
-      }
-    });
-    for (const i of unresolved) {
-      const fuzzy = matchSitemapUrl(listingItems[i].title, sitemapEntries);
-      if (fuzzy && !claimedSitemapUrls.has(fuzzy)) {
-        resolvedUrls[i] = fuzzy;
-        claimedSitemapUrls.add(fuzzy);
-      } else {
-        // Either no fuzzy match, or it points at a sitemap URL an exact
-        // match already claimed this run -- guess instead. A wrong guess
-        // 404s and dropDeadUrls removes it: a safe failure (job missing this
-        // run) instead of an unsafe one (two jobs merged into one).
-        resolvedUrls[i] = `${scraperConfig.sources.jobArchive}${slugify(listingItems[i].title)}/`;
-      }
-    }
-    listingItems.forEach((item, i) => {
-      const url = resolvedUrls[i];
-      jobs.push({
-        url,
-        title: item.title,
-        location: locationFromTitle(item.title),
-        workmode: scraperConfig.defaultWorkmode,
-        expirationdate: item.expirationdate,
-        source: CAREERS_SOURCE
-      });
-    });
-  } else if (sitemapEntries.length > 0) {
-    // Listing unreachable — fall back to sitemap-only, deriving titles from slugs.
-    console.log("  Falling back to sitemap-only (titles from slugs)");
-    for (const e of sitemapEntries) {
-      const title = e.slug
-        .split("-")
-        .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-        .join(" ");
-      jobs.push({
-        url: e.url,
-        title,
-        location: scraperConfig.defaultLocation,
-        workmode: scraperConfig.defaultWorkmode,
-        source: CAREERS_SOURCE
-      });
-    }
-  }
-
   console.log(`  Found ${jobs.length} jobs on ${CAREERS_SOURCE}`);
   return jobs;
 }
@@ -727,7 +693,7 @@ async function main(dryRun = process.argv.includes("--dry-run")) {
   }
 }
 
-export { mapToJobModel, transformJobsForSOLR, scrapeCareers, fetchSitemapJobUrls, parseListing, slugify, matchSitemapUrl, matchSitemapUrlExact, parseDeadline, dropDeadUrls };
+export { parseGreenhouseJobs, greenhouseCity, mapToJobModel, transformJobsForSOLR, scrapeCareers, fetchSitemapJobUrls, parseListing, slugify, matchSitemapUrl, matchSitemapUrlExact, parseDeadline, dropDeadUrls };
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   main();

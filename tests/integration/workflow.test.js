@@ -86,7 +86,7 @@ describe('Integration: API Workflow', () => {
     });
 
     itIfAnaf('should search for company brand and find the company', async () => {
-      const results = await anaf.searchCompany(COMPANY_BRAND);
+      const results = await anaf.searchCompany(COMPANY_NAME);
 
       expect(Array.isArray(results)).toBe(true);
       expect(results.length).toBeGreaterThan(0);
@@ -258,7 +258,7 @@ describe('Integration: API Workflow', () => {
     });
 
     itIfAnaf('should complete the ANAF → Peviitor validation path', async () => {
-      const searchResults = await anaf.searchCompany(COMPANY_BRAND);
+      const searchResults = await anaf.searchCompany(COMPANY_NAME);
       expect(searchResults.length).toBeGreaterThan(0);
 
       const matchedCompany = searchResults.find(c =>

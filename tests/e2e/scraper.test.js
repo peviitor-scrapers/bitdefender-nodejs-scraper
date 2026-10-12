@@ -113,7 +113,7 @@ describe('E2E: Full Scraping Pipeline', () => {
     });
 
     itIfAnaf('finds the company in ANAF and reads active status', async () => {
-      const results = await anaf.searchCompany(TEST_BRAND);
+      const results = await anaf.searchCompany(COMPANY_NAME);
       const match = results.find(c => c.cui.toString() === TEST_CIF && c.statusLabel === 'Funcțiune');
       expect(match).toBeDefined();
       const data = await anaf.getCompanyFromANAF(TEST_CIF);

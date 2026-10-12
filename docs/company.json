@@ -3,9 +3,15 @@
   "company": "BITDEFENDER SRL",
   "brand": "Bitdefender",
   "status": "activ",
-  "location": ["Bucuresti"],
-  "website": ["https://www.bitdefender.ro"],
-  "career": ["https://www.bitdefender.com/ro-ro/company/careers/jobs"],
+  "location": [
+    "Bucuresti"
+  ],
+  "website": [
+    "https://www.bitdefender.ro"
+  ],
+  "career": [
+    "https://www.bitdefender.com/ro-ro/company/careers/jobs"
+  ],
   "scraperFile": "https://github.com/peviitor-scrapers/bitdefender-nodejs-scraper/actions/workflows/scrape.yml",
   "ownJobUrlPrefix": "https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/"
 }
