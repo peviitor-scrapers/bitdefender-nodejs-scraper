@@ -1,0 +1,10 @@
+{
+  "id": "18189442",
+  "company": "BITDEFENDER SRL",
+  "brand": "Bitdefender",
+  "status": "activ",
+  "location": ["Bucuresti"],
+  "website": ["https://www.bitdefender.ro"],
+  "career": ["https://www.bitdefender.com/ro-ro/company/careers/jobs"],
+  "scraperFile": "https://github.com/peviitor-scrapers/bitdefender-nodejs-scraper/actions/workflows/scrape.yml"
+}

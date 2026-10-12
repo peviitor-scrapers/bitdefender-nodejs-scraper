@@ -1,0 +1,20 @@
+{
+  "userAgent": "job_seeker_ro_spider",
+  "requestTimeoutMs": 10000,
+  "pageDelayMs": 1000,
+  "staleJobDeletion": false,
+  "manageCompany": true,
+  "defaultLocation": ["Bucuresti"],
+  "defaultWorkmode": "on-site",
+  "ownJobUrlPrefix": "https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/",
+  "sources": {
+    "sitemap": "",
+    "listing": "https://www.bitdefender.com/ro-ro/company/careers/jobs",
+    "jobArchive": "https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/"
+  },
+  "selectors": {
+    "jobArticle": ["", "[class*='job']", ".vacancy, .position, .listing-item"],
+    "jobTitle": ["", "h1, h2, h3, h4", "[itemprop='title'], [aria-label]", "a"],
+    "jobMeta": ["", "p, .meta, [class*='deadline']"]
+  }
+}
