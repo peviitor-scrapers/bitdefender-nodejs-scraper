@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-10-13 |
+| Last Scraped | 2026-10-14 |
 
 ## Current Job Listings (40)
 
-_Generated: 2026-10-13T13:54:24.149Z_
+_Generated: 2026-10-14T11:31:48.947Z_
 
 ### Associate Security Analyst
 
@@ -123,13 +123,6 @@ _Generated: 2026-10-13T13:54:24.149Z_
 
 ### Legal Advisor
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4936179101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4936179101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
-### Legal Advisor
-
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971877101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971877101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
@@ -222,6 +215,13 @@ _Generated: 2026-10-13T13:54:24.149Z_
 ### Salesforce Developer
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4953862101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4953862101)
+- **Work Mode:** on-site
+- **Location:** Bucuresti
+- **Status:** scraped
+
+### Salesforce Developer Internship
+
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5003446101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5003446101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
