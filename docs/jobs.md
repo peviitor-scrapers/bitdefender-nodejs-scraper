@@ -10,22 +10,22 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-10-14 |
+| Last Scraped | 2026-10-15 |
 
-## Current Job Listings (40)
+## Current Job Listings (39)
 
-_Generated: 2026-10-14T11:31:48.947Z_
+_Generated: 2026-10-15T11:09:16.774Z_
 
 ### Associate Security Analyst
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
 
 ### Associate Security Analyst
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
@@ -47,13 +47,6 @@ _Generated: 2026-10-14T11:31:48.947Z_
 ### Business Technical Support Specialist
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4908018101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4908018101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
-### Commercial Support Representative
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4998307101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4998307101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
@@ -172,14 +165,7 @@ _Generated: 2026-10-14T11:31:48.947Z_
 
 ### QA Automation Engineer
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4958823101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4958823101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
-### QA Engineer
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4995086101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4995086101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
@@ -187,6 +173,13 @@ _Generated: 2026-10-14T11:31:48.947Z_
 ### QA Engineer
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971534101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971534101)
+- **Work Mode:** on-site
+- **Location:** Bucuresti
+- **Status:** scraped
+
+### QA Engineer
+
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
