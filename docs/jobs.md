@@ -12,20 +12,20 @@
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
 | Last Scraped | 2026-10-16 |
 
-## Current Job Listings (39)
+## Current Job Listings (40)
 
-_Generated: 2026-10-16T11:03:59.295Z_
+_Generated: 2026-10-16T17:17:12.028Z_
 
 ### Associate Security Analyst
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
 
 ### Associate Security Analyst
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
@@ -172,14 +172,14 @@ _Generated: 2026-10-16T11:03:59.295Z_
 
 ### QA Engineer
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971534101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971534101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
 
 ### QA Engineer
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971534101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971534101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
@@ -287,4 +287,11 @@ _Generated: 2026-10-16T11:03:59.295Z_
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4975384101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4975384101)
 - **Work Mode:** on-site
 - **Location:** Iasi
+- **Status:** scraped
+
+### Senior Product Marketing Manager - Mobile Security Solutions
+
+- **URL:** [https://bitdefender.csod.com/ux/ats/careersite/1/home/requisition/825?c=bitdefender](https://bitdefender.csod.com/ux/ats/careersite/1/home/requisition/825?c=bitdefender)
+- **Work Mode:** on-site
+- **Location:** Bucuresti
 - **Status:** scraped
