@@ -14,18 +14,18 @@
 
 ## Current Job Listings (40)
 
-_Generated: 2026-10-16T17:17:12.028Z_
+_Generated: 2026-10-16T17:19:40.513Z_
 
 ### Associate Security Analyst
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
 
 ### Associate Security Analyst
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
@@ -172,14 +172,14 @@ _Generated: 2026-10-16T17:17:12.028Z_
 
 ### QA Engineer
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971534101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971534101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
 
 ### QA Engineer
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971534101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971534101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
