@@ -10,6 +10,7 @@
   "sources": {
     "sitemap": "",
     "listing": "https://www.bitdefender.com/ro-ro/company/careers/jobs",
+    "csod": "https://bitdefender.csod.com/ux/ats/careersite/1/home?c=bitdefender",
     "jobArchive": "https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/"
   },
   "selectors": {

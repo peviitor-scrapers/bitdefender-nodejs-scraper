@@ -319,15 +319,114 @@ async function fetchGreenhouseJobs() {
   return parseGreenhouseJobs(await res.json());
 }
 
+// ----------------------------------------------------------------------------
+// Cornerstone (CSOD) - second careers source. Bitdefender posts a few roles
+// (e.g. marketing) only on the Cornerstone portal, never on Greenhouse.
+// ----------------------------------------------------------------------------
+
+const CSOD_SPA_URL = scraperConfig.sources.csod;
+const CSOD_API_URL = "https://eu-fra.api.csod.com/rec-job-search/external/jobs";
+const CSOD_ORIGIN = (() => { try { return new URL(CSOD_SPA_URL).origin; } catch { return ""; } })();
+const CSOD_PAGE_SIZE = 100;
+const CSOD_MAX_PAGES = 5;
+
+async function fetchCsodToken() {
+  const res = await fetch(CSOD_SPA_URL, { timeout: TIMEOUT, headers: { "User-Agent": userAgent, Accept: "text/html" } });
+  if (!res.ok) throw new Error(`CSOD SPA ${res.status}`);
+  const match = (await res.text()).match(/csod\.context\s*=\s*({.*?});/);
+  if (!match) throw new Error("CSOD context token not found");
+  const token = JSON.parse(match[1]).token;
+  if (!token) throw new Error("CSOD context has no token");
+  return token;
+}
+
+/**
+ * Parse one page of the Cornerstone job-search API into scraper jobs, keeping
+ * only postings located in Romania.
+ * @param {object} apiData
+ */
+function parseCsodJobs(apiData) {
+  const out = [];
+  for (const req of (apiData && apiData.data && apiData.data.requisitions) || []) {
+    const cities = [];
+    for (const loc of req.locations || []) {
+      const city = greenhouseCity(`${loc.city || ""}, ${loc.country || ""}`);
+      if (city && !cities.includes(city)) cities.push(city);
+    }
+    if (!cities.length || !req.displayJobTitle || !req.requisitionId) continue;
+    out.push({
+      url: `${CSOD_ORIGIN}/ux/ats/careersite/1/home/requisition/${req.requisitionId}?c=bitdefender`,
+      title: String(req.displayJobTitle).replace(/\s+/g, " ").trim(),
+      location: cities,
+      workmode: scraperConfig.defaultWorkmode,
+      source: new URL(CSOD_SPA_URL).host
+    });
+  }
+  return out;
+}
+
+async function fetchCsodJobs() {
+  const token = await fetchCsodToken();
+  const jobs = [];
+  for (let page = 1; page <= CSOD_MAX_PAGES; page++) {
+    const res = await fetch(CSOD_API_URL, {
+      method: "POST",
+      timeout: TIMEOUT,
+      headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json", "User-Agent": userAgent, Origin: CSOD_ORIGIN, Accept: "application/json" },
+      body: JSON.stringify({
+        careerSiteId: 1, careerSitePageId: 1, pageNumber: page, pageSize: CSOD_PAGE_SIZE, cultureId: 2,
+        searchText: "", cultureName: "en-GB", states: [], countryCodes: [], cities: [], radius: null,
+        postingsWithinDays: null, customFieldCheckboxKeys: [], customFieldDropdowns: [], customFieldRadios: []
+      })
+    });
+    if (!res.ok) throw new Error(`CSOD API ${res.status} (page ${page})`);
+    const data = await res.json();
+    const reqs = (data && data.data && data.data.requisitions) || [];
+    jobs.push(...parseCsodJobs(data));
+    if (reqs.length < CSOD_PAGE_SIZE) break;
+  }
+  return jobs;
+}
+
+const titleKey = (t) => String(t || "").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim().toLowerCase();
+
+/**
+ * Add the Cornerstone jobs that are not already published on Greenhouse
+ * (same title = same posting; most roles are mirrored on both portals).
+ * @param {Array} primary Greenhouse jobs
+ * @param {Array} extra Cornerstone jobs
+ */
+function mergeUniqueByTitle(primary, extra) {
+  const seen = new Set(primary.map((j) => titleKey(j.title)));
+  const merged = [...primary];
+  for (const j of extra) {
+    const k = titleKey(j.title);
+    if (seen.has(k)) continue;
+    seen.add(k);
+    merged.push(j);
+  }
+  return merged;
+}
+
 async function scrapeCareers() {
   console.log(`Scraping Greenhouse board ${GREENHOUSE_BOARD} (careers page is client-rendered) ...`);
-  const jobs = [];
+  let jobs = [];
   try {
     jobs.push(...(await fetchGreenhouseJobs()));
   } catch (err) {
     console.log(`  Greenhouse error: ${err.message}`);
   }
   console.log(`  Found ${jobs.length} jobs on ${CAREERS_SOURCE}`);
+  if (CSOD_SPA_URL) {
+    try {
+      const csod = await fetchCsodJobs();
+      const before = jobs.length;
+      jobs = mergeUniqueByTitle(jobs, csod);
+      console.log(`  Cornerstone: ${csod.length} Romanian jobs, ${jobs.length - before} not on Greenhouse`);
+    } catch (err) {
+      console.log(`  Cornerstone error: ${err.message}`);
+    }
+  }
   return jobs;
 }
 
@@ -693,7 +792,7 @@ async function main(dryRun = process.argv.includes("--dry-run")) {
   }
 }
 
-export { parseGreenhouseJobs, greenhouseCity, mapToJobModel, transformJobsForSOLR, scrapeCareers, fetchSitemapJobUrls, parseListing, slugify, matchSitemapUrl, matchSitemapUrlExact, parseDeadline, dropDeadUrls };
+export { parseCsodJobs, mergeUniqueByTitle, parseGreenhouseJobs, greenhouseCity, mapToJobModel, transformJobsForSOLR, scrapeCareers, fetchSitemapJobUrls, parseListing, slugify, matchSitemapUrl, matchSitemapUrlExact, parseDeadline, dropDeadUrls };
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   main();
