@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-10-18 |
+| Last Scraped | 2026-10-19 |
 
 ## Current Job Listings (40)
 
-_Generated: 2026-10-18T10:42:23.133Z_
+_Generated: 2026-10-19T12:41:19.508Z_
 
 ### Associate Security Analyst
 
@@ -40,6 +40,13 @@ _Generated: 2026-10-18T10:42:23.133Z_
 ### B2B2C Cloud Solutions Architect
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4952935101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4952935101)
+- **Work Mode:** on-site
+- **Location:** Bucuresti
+- **Status:** scraped
+
+### Backend Developer (NodeJS)
+
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4986569101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4986569101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
@@ -117,13 +124,6 @@ _Generated: 2026-10-18T10:42:23.133Z_
 ### Legal Advisor
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971877101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971877101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
-### MDM Developer (nodeJS)
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4986569101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4986569101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
