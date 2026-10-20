@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-10-19 |
+| Last Scraped | 2026-10-20 |
 
-## Current Job Listings (40)
+## Current Job Listings (38)
 
-_Generated: 2026-10-19T12:41:19.508Z_
+_Generated: 2026-10-20T11:13:21.287Z_
 
 ### Associate Security Analyst
 
@@ -273,20 +273,6 @@ _Generated: 2026-10-19T12:41:19.508Z_
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4940983101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4940983101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
-- **Status:** scraped
-
-### UX Design Internship - Bucharest
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4975378101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4975378101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
-### UX Design Internship - Iasi
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4975384101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4975384101)
-- **Work Mode:** on-site
-- **Location:** Iasi
 - **Status:** scraped
 
 ### Senior Product Marketing Manager - Mobile Security Solutions
