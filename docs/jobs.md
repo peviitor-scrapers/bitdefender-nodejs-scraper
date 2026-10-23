@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-10-22 |
+| Last Scraped | 2026-10-23 |
 
-## Current Job Listings (39)
+## Current Job Listings (38)
 
-_Generated: 2026-10-22T11:29:03.543Z_
+_Generated: 2026-10-23T11:19:04.990Z_
 
 ### Associate Security Analyst
 
@@ -208,13 +208,6 @@ _Generated: 2026-10-22T11:29:03.543Z_
 ### Salesforce Developer
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4953862101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4953862101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
-### Salesforce Developer Internship
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5003446101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5003446101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
