@@ -10,22 +10,22 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-10-24 |
+| Last Scraped | 2026-10-25 |
 
 ## Current Job Listings (38)
 
-_Generated: 2026-10-24T10:38:13.247Z_
+_Generated: 2026-10-25T11:02:24.560Z_
 
 ### Associate Security Analyst
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
 
 ### Associate Security Analyst
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
@@ -165,14 +165,14 @@ _Generated: 2026-10-24T10:38:13.247Z_
 
 ### QA Engineer
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971534101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971534101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
 
 ### QA Engineer
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971534101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4971534101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
