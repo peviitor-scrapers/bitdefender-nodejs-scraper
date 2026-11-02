@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-11-01 |
+| Last Scraped | 2026-11-02 |
 
-## Current Job Listings (36)
+## Current Job Listings (37)
 
-_Generated: 2026-11-01T12:57:16.983Z_
+_Generated: 2026-11-02T15:15:05.954Z_
 
 ### Associate Security Analyst
 
@@ -208,6 +208,13 @@ _Generated: 2026-11-01T12:57:16.983Z_
 ### Senior QA Engineer (macOS)
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4914844101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4914844101)
+- **Work Mode:** on-site
+- **Location:** Bucuresti
+- **Status:** scraped
+
+### Senior Revenue Accountant
+
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5024148101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5024148101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
