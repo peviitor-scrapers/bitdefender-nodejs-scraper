@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-11-03 |
+| Last Scraped | 2026-11-04 |
 
-## Current Job Listings (37)
+## Current Job Listings (34)
 
-_Generated: 2026-11-03T13:54:31.274Z_
+_Generated: 2026-11-04T14:04:05.069Z_
 
 ### Associate Security Analyst
 
@@ -47,27 +47,6 @@ _Generated: 2026-11-03T13:54:31.274Z_
 ### Business Technical Support Specialist
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4908018101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4908018101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
-### Customer Success Manager Team Lead (EMEA & SEA)
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4979185101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4979185101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
-### Customer Success Manager (with French)
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4979170101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4979170101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
-### Customer Success Manager (with Spanish)
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4955882101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4955882101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
