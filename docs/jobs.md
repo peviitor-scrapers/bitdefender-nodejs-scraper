@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-11-04 |
+| Last Scraped | 2026-11-05 |
 
 ## Current Job Listings (34)
 
-_Generated: 2026-11-04T14:04:05.069Z_
+_Generated: 2026-11-05T14:24:34.204Z_
 
 ### Associate Security Analyst
 
@@ -135,13 +135,6 @@ _Generated: 2026-11-04T14:04:05.069Z_
 - **Location:** Bucuresti
 - **Status:** scraped
 
-### QA Engineer
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4926040101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
 ### Retention & Loyalty Specialist with French
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4999617101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4999617101)
@@ -243,6 +236,13 @@ _Generated: 2026-11-04T14:04:05.069Z_
 ### Technical Support Engineer with French
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4999824101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4999824101)
+- **Work Mode:** on-site
+- **Location:** Bucuresti
+- **Status:** scraped
+
+### QA Engineer
+
+- **URL:** [https://bitdefender.csod.com/ux/ats/careersite/1/home/requisition/945?c=bitdefender](https://bitdefender.csod.com/ux/ats/careersite/1/home/requisition/945?c=bitdefender)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
