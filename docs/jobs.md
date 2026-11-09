@@ -10,22 +10,22 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-11-08 |
+| Last Scraped | 2026-11-09 |
 
 ## Current Job Listings (34)
 
-_Generated: 2026-11-08T13:01:07.740Z_
+_Generated: 2026-11-09T15:43:45.830Z_
 
 ### Associate Security Analyst
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
 
 ### Associate Security Analyst
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
@@ -47,6 +47,13 @@ _Generated: 2026-11-08T13:01:07.740Z_
 ### Business Technical Support Specialist
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4908018101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4908018101)
+- **Work Mode:** on-site
+- **Location:** Bucuresti
+- **Status:** scraped
+
+### C++ Software Developer – Endpoint Security Windows
+
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5026024101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5026024101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
@@ -107,13 +114,6 @@ _Generated: 2026-11-08T13:01:07.740Z_
 - **Location:** Bucuresti
 - **Status:** scraped
 
-### Mobile Software Developer
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4973093101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4973093101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
 ### NodeJS Developer
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4876431101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4876431101)
@@ -149,9 +149,9 @@ _Generated: 2026-11-08T13:01:07.740Z_
 - **Location:** Bucuresti
 - **Status:** scraped
 
-### Sales Development Representative Iberia
+### Sales Development Representative France
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4944176101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4944176101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018741101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018741101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
@@ -159,13 +159,6 @@ _Generated: 2026-11-08T13:01:07.740Z_
 ### Salesforce Developer
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4953862101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4953862101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
-### Salesforce Developer Internship
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5003446101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5003446101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
@@ -243,6 +236,13 @@ _Generated: 2026-11-08T13:01:07.740Z_
 ### QA Engineer
 
 - **URL:** [https://bitdefender.csod.com/ux/ats/careersite/1/home/requisition/945?c=bitdefender](https://bitdefender.csod.com/ux/ats/careersite/1/home/requisition/945?c=bitdefender)
+- **Work Mode:** on-site
+- **Location:** Bucuresti
+- **Status:** scraped
+
+### Mobile Software Developer
+
+- **URL:** [https://bitdefender.csod.com/ux/ats/careersite/1/home/requisition/919?c=bitdefender](https://bitdefender.csod.com/ux/ats/careersite/1/home/requisition/919?c=bitdefender)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
