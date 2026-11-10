@@ -10,22 +10,22 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-11-09 |
+| Last Scraped | 2026-11-10 |
 
 ## Current Job Listings (34)
 
-_Generated: 2026-11-09T15:43:45.830Z_
+_Generated: 2026-11-10T14:38:04.219Z_
 
 ### Associate Security Analyst
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
 
 ### Associate Security Analyst
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
@@ -61,6 +61,13 @@ _Generated: 2026-11-09T15:43:45.830Z_
 ### Cybersecurity Advisory Consultant
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5004960101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5004960101)
+- **Work Mode:** on-site
+- **Location:** România
+- **Status:** scraped
+
+### Cyber Security Consultant - Penetration Testing (French speaking)
+
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5025620101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5025620101)
 - **Work Mode:** on-site
 - **Location:** România
 - **Status:** scraped
@@ -208,13 +215,6 @@ _Generated: 2026-11-09T15:43:45.830Z_
 ### Software QA Engineer for Cloud Services
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4967011101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4967011101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
-### Talent Acquisition Specialist
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4930431101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4930431101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
