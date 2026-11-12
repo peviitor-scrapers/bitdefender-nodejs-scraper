@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-11-11 |
+| Last Scraped | 2026-11-12 |
 
-## Current Job Listings (35)
+## Current Job Listings (33)
 
-_Generated: 2026-11-11T13:53:21.514Z_
+_Generated: 2026-11-12T14:55:07.071Z_
 
 ### AI Security Reseacher
 
@@ -149,20 +149,6 @@ _Generated: 2026-11-11T13:53:21.514Z_
 - **Location:** Bucuresti
 - **Status:** scraped
 
-### Retention & Loyalty Specialist with French
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4999617101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4999617101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
-### Retention & Loyalty Specialist with German
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4998375101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4998375101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
 ### Sales Development Representative France
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018741101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018741101)
@@ -173,6 +159,13 @@ _Generated: 2026-11-11T13:53:21.514Z_
 ### Salesforce Developer
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4953862101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4953862101)
+- **Work Mode:** on-site
+- **Location:** Bucuresti
+- **Status:** scraped
+
+### Salesforce Developer Internship
+
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5003446101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5003446101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
@@ -222,13 +215,6 @@ _Generated: 2026-11-11T13:53:21.514Z_
 ### Software QA Engineer for Cloud Services
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4967011101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4967011101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
-### Technical Lead- PHP Development
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4940983101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4940983101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
