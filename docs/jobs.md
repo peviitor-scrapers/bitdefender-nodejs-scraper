@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-11-12 |
+| Last Scraped | 2026-11-13 |
 
-## Current Job Listings (33)
+## Current Job Listings (34)
 
-_Generated: 2026-11-12T14:55:07.071Z_
+_Generated: 2026-11-13T14:20:12.668Z_
 
 ### AI Security Reseacher
 
@@ -215,6 +215,13 @@ _Generated: 2026-11-12T14:55:07.071Z_
 ### Software QA Engineer for Cloud Services
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4967011101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4967011101)
+- **Work Mode:** on-site
+- **Location:** Bucuresti
+- **Status:** scraped
+
+### Strategic Account Manager DACH
+
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5024919101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5024919101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
