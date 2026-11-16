@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-11-15 |
+| Last Scraped | 2026-11-16 |
 
-## Current Job Listings (34)
+## Current Job Listings (36)
 
-_Generated: 2026-11-15T13:43:33.804Z_
+_Generated: 2026-11-16T15:20:01.038Z_
 
 ### AI Security Reseacher
 
@@ -49,6 +49,13 @@ _Generated: 2026-11-15T13:43:33.804Z_
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4986569101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4986569101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
+- **Status:** scraped
+
+### Business Technical Support Engineer (with German)
+
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5027121101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5027121101)
+- **Work Mode:** on-site
+- **Location:** România
 - **Status:** scraped
 
 ### Business Technical Support Specialist
@@ -210,6 +217,13 @@ _Generated: 2026-11-15T13:43:33.804Z_
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4924512101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4924512101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
+- **Status:** scraped
+
+### Software Engineer
+
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018821101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018821101)
+- **Work Mode:** on-site
+- **Location:** Iasi
 - **Status:** scraped
 
 ### Software QA Engineer for Cloud Services
