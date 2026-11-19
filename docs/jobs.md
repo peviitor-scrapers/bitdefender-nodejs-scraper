@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-11-18 |
+| Last Scraped | 2026-11-19 |
 
-## Current Job Listings (37)
+## Current Job Listings (38)
 
-_Generated: 2026-11-18T15:24:53.641Z_
+_Generated: 2026-11-19T15:30:16.411Z_
 
 ### AI Security Reseacher
 
@@ -25,14 +25,14 @@ _Generated: 2026-11-18T15:24:53.641Z_
 
 ### Associate Security Analyst
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
 
 ### Associate Security Analyst
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
@@ -89,6 +89,13 @@ _Generated: 2026-11-18T15:24:53.641Z_
 ### Data Analyst
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4991301101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4991301101)
+- **Work Mode:** on-site
+- **Location:** Bucuresti
+- **Status:** scraped
+
+### DevOps Engineer
+
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5040350101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5040350101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
