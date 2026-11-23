@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-11-22 |
+| Last Scraped | 2026-11-23 |
 
-## Current Job Listings (39)
+## Current Job Listings (41)
 
-_Generated: 2026-11-22T14:22:31.112Z_
+_Generated: 2026-11-23T17:45:34.576Z_
 
 ### AI Security Reseacher
 
@@ -25,14 +25,14 @@ _Generated: 2026-11-22T14:22:31.112Z_
 
 ### Associate Security Analyst
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
 
 ### Associate Security Analyst
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954182101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4954189101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
@@ -247,6 +247,13 @@ _Generated: 2026-11-22T14:22:31.112Z_
 - **Location:** Iasi
 - **Status:** scraped
 
+### Software Engineer
+
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018806101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018806101)
+- **Work Mode:** on-site
+- **Location:** Iasi
+- **Status:** scraped
+
 ### Software QA Engineer for Cloud Services
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4967011101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4967011101)
@@ -257,6 +264,13 @@ _Generated: 2026-11-22T14:22:31.112Z_
 ### Strategic Account Manager DACH
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5024919101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5024919101)
+- **Work Mode:** on-site
+- **Location:** Bucuresti
+- **Status:** scraped
+
+### Technical Support Engineer
+
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5036847101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5036847101)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
 - **Status:** scraped
