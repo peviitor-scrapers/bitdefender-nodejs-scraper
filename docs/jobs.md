@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-11-23 |
+| Last Scraped | 2026-11-24 |
 
-## Current Job Listings (41)
+## Current Job Listings (40)
 
-_Generated: 2026-11-23T17:45:34.576Z_
+_Generated: 2026-11-24T17:18:43.397Z_
 
 ### AI Security Reseacher
 
@@ -205,13 +205,6 @@ _Generated: 2026-11-23T17:45:34.576Z_
 - **Location:** Bucuresti
 - **Status:** scraped
 
-### Senior QA Engineer (macOS)
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4914844101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4914844101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
 ### Senior Revenue Accountant
 
 - **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5024148101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5024148101)
@@ -242,14 +235,14 @@ _Generated: 2026-11-23T17:45:34.576Z_
 
 ### Software Engineer
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018821101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018821101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018806101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018806101)
 - **Work Mode:** on-site
 - **Location:** Iasi
 - **Status:** scraped
 
 ### Software Engineer
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018806101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018806101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018821101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018821101)
 - **Work Mode:** on-site
 - **Location:** Iasi
 - **Status:** scraped
