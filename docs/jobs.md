@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-11-24 |
+| Last Scraped | 2026-11-25 |
 
-## Current Job Listings (40)
+## Current Job Listings (39)
 
-_Generated: 2026-11-24T17:18:43.397Z_
+_Generated: 2026-11-25T16:59:23.438Z_
 
 ### AI Security Reseacher
 
@@ -226,23 +226,16 @@ _Generated: 2026-11-24T17:18:43.397Z_
 - **Location:** Bucuresti
 - **Status:** scraped
 
-### Service Reliability Engineer
-
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4924512101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/4924512101)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
-- **Status:** scraped
-
 ### Software Engineer
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018806101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018806101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018821101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018821101)
 - **Work Mode:** on-site
 - **Location:** Iasi
 - **Status:** scraped
 
 ### Software Engineer
 
-- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018821101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018821101)
+- **URL:** [https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018806101](https://job-boards.eu.greenhouse.io/scbitdefendersrl/jobs/5018806101)
 - **Work Mode:** on-site
 - **Location:** Iasi
 - **Status:** scraped
