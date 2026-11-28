@@ -7,14 +7,14 @@
 | CIF | 18189442 |
 | Brand | Bitdefender |
 | Status | activ |
-| Location | Bucuresti |
+| Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, ŞOS ORHIDEELOR, NR.15A, CLADIREA ORHIDEEA TOWERS. ETAJELE 10.11 SI 12 |
 | Website | [https://www.bitdefender.ro](https://www.bitdefender.ro) |
 | Careers | [https://www.bitdefender.com/ro-ro/company/careers/jobs](https://www.bitdefender.com/ro-ro/company/careers/jobs) |
-| Last Scraped | 2026-11-27 |
+| Last Scraped | 2026-11-28 |
 
 ## Current Job Listings (36)
 
-_Generated: 2026-11-27T16:25:18.395Z_
+_Generated: 2026-11-28T15:17:48.987Z_
 
 ### AI Security Reseacher
 
